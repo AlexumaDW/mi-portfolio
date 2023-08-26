@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.body ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacto li,
+.pie li,
+.tecnologias li {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto img,
+.pie img,
+.tecnologias li img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.main * {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main hr {
+  width: 100vw;
+}
+
+.navegador {
+  background: #be3030;
+}
+
+.navegador ul,
+.pie ul {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.navegador li,
+.pie li {
+  font-size: 1.5rem;
+  padding: .5rem;
+  width: 25%;
+  text-align: center;
+}
+
+.navegador li:hover {
+  background: #222222;
+  color: #eeeeee;
+}
+
+
+.pie {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.pie p {
+  margin: 0;
+}
+
+.presentacion {
+  margin: 0;
+}
+
+.presentacion h1 {
+  text-align: center;
+  position: absolute;
+  top: 20rem;
+  left: 10rem;
+  font-size: 70px;
+  color: rgb(54, 54, 54);
+}
+
+.presentacion img {
+  opacity: .5;
+  height: 50vh;
+  width: 100vw;
+}
+
+.sobre-mi p,
+.tecnologias p {
+  font-size: 2rem;
+}
+
+.tecnologias img {
+  width: 300px;
+  height: auto;
+}
+
+.tecnologias figcaption {
+  font-size: 1.5rem;
+}
