@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -9,9 +9,14 @@ html {
   box-sizing: inherit;
 }
 
+
 .body ul {
   list-style: none;
   padding-left: 0;
+}
+
+.body h2 {
+  font-size: 3rem;
 }
 
 .contacto li,
@@ -31,22 +36,18 @@ html {
   margin: 0;
 }
 
-h2 {
-  font-size: 3rem;
-}
-
-.main * {
+.contacto,
+.sobre-mi,
+.tecnologias {
   width: 80vw;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 .main hr {
-  width: 100vw;
-}
-
-.navegador {
-  background: #be3030;
+  height: 1px;
+  background-color: #9c9c9c;
+  box-shadow: 0px 0px 10px #9c9c9c;
 }
 
 .navegador ul,
@@ -55,22 +56,30 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 80%;
 }
 
 .navegador li,
 .pie li {
   font-size: 1.5rem;
-  padding: .5rem;
   width: 25%;
   text-align: center;
 }
 
-.navegador li:hover {
-  background: #222222;
-  color: #eeeeee;
+.navegador li a {
+  padding: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
+.navegador li a:visited {
+  color: black;
+}
+
+.navegador li a:hover {
+  background: #9c9c9c;
+  color: #ffffff;
+}
 
 .pie {
   font-size: 1.5rem;
@@ -81,28 +90,30 @@ h2 {
   margin: 0;
 }
 
-.presentacion {
-  margin: 0;
+.pie a {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
 }
 
-.presentacion h1 {
-  text-align: center;
-  position: absolute;
-  top: 20rem;
-  left: 10rem;
-  font-size: 70px;
-  color: rgb(54, 54, 54);
+.pie img {
+  height: 3rem;
+  width: 3rem;
 }
 
 .presentacion img {
   opacity: .5;
-  height: 50vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .sobre-mi p,
 .tecnologias p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.sobre-mi img {
+  /* height: 60vh; */
+  width: 70vw;
 }
 
 .tecnologias img {

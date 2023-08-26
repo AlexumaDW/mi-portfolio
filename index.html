@@ -9,25 +9,27 @@
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
-<body class="body">
+<body class="body" id="body">
   <nav id="navegador" class="navegador">
     <ul>
-      <li>Sobre mi y Proyectos</li>
-      <li>Tecnologías</li>
-      <li>Estudios Realizados</li>
-      <li>Contacto</li>
+      <li><a href="index.html#sobre-mi">Sobre mi y Proyectos</a></li>
+      <li><a href="index.html#tecnologias">Tecnologías y Estudios</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
     </ul>
   </nav>
+  <article class="presentacion">
+    <img src="./img/fondo-principal.jpg" alt="fondo principal del sitio">
+  </article>
   <main class="main">
-    <article class="presentacion">
-      <img src="./img/fondo-principal.jpg" alt="fondo principal del sitio">
-      <h1>Hola Mundo</h1>
-    </article>
     <article id="sobre-mi" class="sobre-mi">
       <h2>Un poco de mi y Proyectos</h2>
       <p><i>Soy desarrollador web full stack con una gran pasión por el desarrollo web, gran entusiasmo por aprender
           nuevas
           tecnologías y consolidar cada dia mas las ya conocidas</i>.</p>
+      <img src="./img/img.jpg" alt="carrusel">
+      <img src="./img/img.jpg" alt="carrusel">
+      <img src="./img/img.jpg" alt="carrusel">
+      <img src="./img/img.jpg" alt="carrusel">
     </article>
     <hr>
     <article id="tecnologias" class="tecnologias">
@@ -66,7 +68,7 @@
     </article>
     <hr>
     <article id="contacto" class="contacto">
-      <h2>Contactamé:</h2>
+      <h2>Contactamé a travez de:</h2>
       <ul>
         <li><img src="./assets/icon/instagram.svg" alt="instagram">Instagram</li>
         <li><img src="./assets/icon/facebook.svg" alt="facebook">Faceboook</li>
@@ -78,12 +80,13 @@
     <hr>
   </main>
   <footer id="pie" class="pie">
-    <p>Este sitio esta desarrollado con:</p>
+    <p>Este sitio esta desarrollado por Alexuma con las tecnologías:</p>
     <ul>
       <li><img src="./assets/icon/html-5.svg" alt="html-5">HTML</li>
       <li><img src="./assets/icon/css-3.svg" alt="css-3">CSS</li>
       <li><img src="./assets/icon/js.svg" alt="javascript">JavaScript</li>
     </ul>
+    <a href="./index.html#body"><img src="./assets/icon/up.svg" alt="volver al inicio"></a>
   </footer>
 </body>
 
